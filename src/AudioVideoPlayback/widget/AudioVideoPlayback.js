@@ -73,7 +73,7 @@ define([
 
         getUrl: function () {
             if (this.playSource === "mxFile" && this._contextObj != null) {
-                return "file?target=window&guid=" + this._contextObj.getGuid();
+                return "/file?target=window&guid=" + this._contextObj.getGuid();
             } else if (this.playSource === "widgetAttrUrl" && this._contextObj != null) {
                 return this._contextObj.get(this.mediaURLattr);
             } else if (this.playSource === "widgetUrl") {
