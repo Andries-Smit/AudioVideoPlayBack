@@ -13,7 +13,7 @@ define([
 ], function (declare, _WidgetBase, _TemplatedMixin, dom, domClass, domStyle, lang, html, _jQuery, widgetTemplate, jplayer) {
     "use strict";
     var $ = _jQuery.noConflict(true);
-    mxui.dom.addCss(require.toUrl("AudioVideoPlayback/widget/ui/blue.monday/jplayer.blue.monday.css"));
+    mxui.dom.addCss(require.toUrl("AudioVideoPlayback/lib/skins/blue.monday/jplayer.blue.monday.css"));
     mxui.dom.addCss(require.toUrl("AudioVideoPlayback/widget/ui/playback.css"));
 
     // Declare widget"s prototype.
